@@ -1,0 +1,57 @@
+body {
+  background: #3d3d3d;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 2.7fr 1.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "containerVideo containerVideo containerVideo"
+    "description lirycs nullArea";
+}
+
+.header {
+  grid-area: header;
+  background: #291541;
+  border: #3d3d3d 1px solid;
+}
+
+.containerVideo {
+  grid-area: containerVideo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 16px;
+  background: #1e2020;
+  border: #3d3d3d 1px solid;
+}
+
+.description {
+  grid-area: description;
+  background: #1e2020;
+  border: #3d3d3d 1px solid;
+  align-content: center;
+}
+
+p {
+  color: #ffff;
+  font-family: "Courier New", Courier, monospace;
+}
+.lirycs {
+  grid-area: lirycs;
+  background: #1e2020;
+  border: #3d3d3d 1px solid;
+  align-content: center;
+}
+
+h3 {
+  color: #ffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nullArea {
+  grid-area: nullArea;
+}
