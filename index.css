@@ -1,17 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: black;
 }
 a {
-    text-decoration: none;
-    color: white;
-    align-items: center;
-    padding: 170px 100px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
 }
 .containerTitle {
-    display: flex;
-    justify-content:space-between
+  display: flex;
+  justify-content: space-between;
 }
 .titleSong {
   color: white;
@@ -42,10 +41,8 @@ a {
   margin: 10px;
 }
 
-h1 {
- text-align: center;
-    font-size: 70px;
-    color: #ffffff;
+.titulo {
+  text-align: center;
 }
 
 button {
@@ -56,10 +53,4 @@ button {
   top: 20%;
   left: 50%;
   font: message-box;
-}
-
-img{
-    height:400px;
-    width:500px;
-    padding: 40px 70px;
 }
