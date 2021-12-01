@@ -1,0 +1,35 @@
+body{
+    background-color: #000000;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 10px 300px;
+    text-align: center;
+}
+
+.artist{
+    font-size: 70px;
+}
+
+.song{
+    font-size: 50px;
+}
+
+.video{
+    width: 700px;
+    height: 434px;
+    padding: 10px 400px;
+}
+
+p{
+    color:#ffffff;
+    font-family: Arial Narrow Bold;
+    font-size: 20px;
+}
+
+.container{
+    padding: 10px 500px;
+}
