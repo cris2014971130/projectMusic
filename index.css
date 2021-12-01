@@ -1,13 +1,21 @@
-h1{
-    text-align: center;
+body{
+    background-color: #000000;
 }
 
-button{
-    height:100px; 
-    width:200px; 
-    margin: -20px -50px; 
-    position:relative;
-    top:20%; 
-    left:50%;
-    font: message-box;
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+a{
+    align-items: center;
+    padding: 170px 100px;
+    
+}
+
+img{
+    height:400px;
+    width:500px;
+    padding: 40px 70px;
 }
